@@ -14,12 +14,5 @@ public class TestSumarNumeros {
 
     }
 
-    @Test
-    public  void testQueDonNumerosSeSumenMal(){
-        SumarDosNumeros calculadora=new SumarDosNumeros();
-        Integer actual=calculadora.sumarDosNumeros(1,2);
-        Integer esperado=2;
 
-        Assert.assertEquals(esperado,actual);
-    }
 }
